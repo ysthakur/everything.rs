@@ -8,9 +8,6 @@ Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has 
 covered. Now you can list directories and print strings blazing fast 🚀, without the guilt of using a
 non-Rust tool.
 
-Want a Rust-powered replacement for that sluggish Python script you made? No problem, `everything.rs`
-has got you covered there, too.
-
 ## Installation
 
 Download an executable from [the latest release](https://github.com/ysthakur/everything.rs/releases/latest), or,
@@ -36,6 +33,11 @@ You can use aliases to make things more convenient for you (e.g. `alias ls=every
 `everything.rs` applies the cutting-edge technology pioneered by [`exec-rs`](https://github.com/faradayio/exec-rs)
 to perfectly emulate any program. `everything.rs` does require you to have the program installed on your
 machine so it can better emulate it.
+
+### Does it work for more than Unix tools?
+
+Of course! Want a Rust-powered replacement for that sluggish bash script you made? No problem,
+just stick an `everything` in front of it and use it the same way you would normally (`everything <script name> <args...>`).
 
 ### There's no way you've ported *everything*. Does it actually work?
 
