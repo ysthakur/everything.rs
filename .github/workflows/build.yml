@@ -18,9 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: cargo build --verbose
+      run: cargo build --verbose --release
     - uses: actions/checkout@v3
       name: Upload artifact
       with:
         name: everything-${{ matrix.os }}
-        path: target/build/everything
+        path: target/release/everything
