@@ -47,5 +47,4 @@ Working on it.
 
 ### How can I support this project?
 
-Despite how valuable this software is to all of humanity, I do not seek any compensation for my work.
-Knowing that I have benefitted the world is enough payment.
+Despite how useful this software is, I don't want any compensation for it - working on it was fun enough to make it worth it!
