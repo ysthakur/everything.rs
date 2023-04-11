@@ -7,7 +7,7 @@ on:
     paths:
       - "src/*.rs"
       - "Cargo.toml"
-      - ".github/workflow/*"
+      - ".github/workflows/build.yml"
   pull_request:
     branches: [ "main" ]
 
