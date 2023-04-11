@@ -13,7 +13,7 @@ has got you covered there, too.
 
 ## Installation
 
-Download the latest release from the releases page anywhere.
+Download the artifact from the latest green run [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
 
 ## Usage
 
