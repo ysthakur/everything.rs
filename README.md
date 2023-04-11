@@ -13,8 +13,11 @@ has got you covered there, too.
 
 ## Installation
 
-Download the artifact from the latest green run [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
-Put it in a folder that's in your `PATH` and rename it to `everything` or `e` or something.
+Download an executable from [the latest release](https://github.com/ysthakur/everything.rs/releases/latest), or,
+if you want hemorrhaging edge releases, download the artifact from the latest green run
+[here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
+
+Put it in a folder that's in your `PATH` and rename it to `everything` or `e` or something and you're good to go!
 
 ## Usage
 
