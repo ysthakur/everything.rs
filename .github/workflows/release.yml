@@ -1,0 +1,62 @@
+---
+name: Create release from tag
+
+on:
+  push:
+    tags:
+      - "v*"
+
+# Names of the artifacts and executables for each platform
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: Generate executable for ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        include:
+          - os: ubuntu-latest
+            exe-name: everything-linux
+          - os: macos-latest
+            exe-name: everything-macos
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: cargo build --verbose --release
+      - uses: olegtarasov/get-tag@v2.1.2
+        id: tagName
+      - name: Name executable
+        run: |
+          mv target/release/everything ${{ matrix.exe-name }}-${{ steps.tagName.outputs.tag }}
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.exe-name }}
+          path: ${{ matrix.exe-name }}-*
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+      - name: Make artifacts folder
+        run: |
+          mkdir artifacts
+      - uses: actions/download-artifact@v3
+        with:
+          name: everything-linux
+          path: artifacts/
+      - uses: actions/download-artifact@v3
+        with:
+          name: everything-macos
+          path: artifacts/
+      - name: Release 🚀
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            artifacts/*
