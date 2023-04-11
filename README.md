@@ -20,10 +20,11 @@ Put it in a folder that's in your `PATH` and rename it to `everything` or `e` or
 
 To use a Rusty version of `ls`, use
 ```bash
-everything ls -al
+everything ls
+everything ls -al # You can pass arguments too
 ```
 
-You can use aliases to make things more convenient for you.
+You can use aliases to make things more convenient for you (e.g. `alias ls=everything ls`).
 
 ## FAQ
 
