@@ -14,19 +14,16 @@ has got you covered there, too.
 ## Installation
 
 Download the artifact from the latest green run [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
+Put it in a folder that's in your `PATH` and rename it to `everything` or `e` or something.
 
 ## Usage
 
-Put the `everything` executable anywhere you want (e.g. `$HOME`)
-
-Make a symlink with the name of the tool you want to Rust-ify to the `everything` executable
-and put the symlink in a folder that's included in your `$PATH`. Make sure you don't name it the same as
-the original executable or overwrite it, because `everything.rs` needs to the
-original executable to be able to emulate it.
-
+To use a Rusty version of `ls`, use
 ```bash
-ln -s $HOME/everything $HOME/bin/lsrs
+everything ls -al
 ```
+
+You can use aliases to make things more convenient for you.
 
 ## FAQ
 
