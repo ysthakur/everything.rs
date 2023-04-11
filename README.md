@@ -1,12 +1,22 @@
 # everything.rs
 
-You may have noticed a bunch of Rust ports of Unix tools popping up everywhere.
-Porting individual tools to Rust is slow, difficult work, however. This repository aims
-to fix that. Behold, a port of **everything** to Rust.
+![build](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml/badge.svg)
+
+Do you ever feel like washing your hands after a coding session, disgusted at having to use essential
+Unix utilities with not the tiniest bit of Rust in them? If so, this project is for you! If not, this project is
+still for you, you just haven't seen the light yet. Head on over to [rust-lang.org](https://www.rust-lang.org/)
+to meet your salvation.
+
+Perhaps you've been using one of those "X Unix tool, but in Rust" things popping up everywhere. But that's
+not sustainable or convenient, because porting individual tools to Rust is slow, difficult work, and these individual
+ports often differ in behavior from the tool they were meant to replace. Most Unix tools don't have Rust ports,
+and many of these ports require maintenance. This repository aims to fix that.
+
+Behold, a port of **everything** to Rust.
 
 Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has got you
 covered. Now you can list directories and print strings blazing fast 🚀, without the guilt of using a
-non-Rust tool.
+non-Rust tool! Rest assured, `everything.rs` will have the *exact* same behavior as `ls` or `echo`, but with Rust 🦀.
 
 ## Installation
 
@@ -14,7 +24,7 @@ Download an executable from [the latest release](https://github.com/ysthakur/eve
 if you want hemorrhaging edge releases, download the artifact from the latest green run
 [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
 
-Put it in a folder that's in your `PATH` and rename it to `everything` or `e` or something and you're good to go!
+Put it in a folder that's in your `PATH` and rename it to `everything` and you're good to go!
 
 ## Usage
 
