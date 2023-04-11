@@ -1,4 +1,4 @@
-name: Build and upload executable
+name: Build and test
 
 on:
   workflow_dispatch:
