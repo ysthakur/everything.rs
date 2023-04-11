@@ -20,11 +20,12 @@ Download the artifact from the latest green run [here](https://github.com/ysthak
 Put the `everything` executable anywhere you want (e.g. `$HOME`)
 
 Make a symlink with the name of the tool you want to Rust-ify to the `everything` executable
-and put the symlink in a folder that's included in your `$PATH`. Make sure you don't overwrite
-the original executable, because `everything.rs` needs it to be able to emulate it.
+and put the symlink in a folder that's included in your `$PATH`. Make sure you don't name it the same as
+the original executable or overwrite it, because `everything.rs` needs to the
+original executable to be able to emulate it.
 
 ```bash
-ln -s $HOME/everything $HOME/bin/ls
+ln -s $HOME/everything $HOME/bin/lsrs
 ```
 
 ## FAQ
