@@ -34,7 +34,7 @@ everything ls
 everything ls -al # You can pass arguments too
 ```
 
-You can use aliases to make things more convenient for you (e.g. `alias ls=everything ls`).
+You can use aliases to make it more convenient (e.g. `alias ls=everything ls`).
 
 ## FAQ
 
@@ -53,10 +53,10 @@ just stick an `everything` in front of it and use it the same way you would norm
 
 You better believe it.
 
-### I love it! When will it have Windows support?
+### When will it have Windows support?
 
-Working on it.
+It may already have it, I just haven't bothered testing it. Haven't bothered testing on MacOS either.
 
-### How can I support this project?
+### I love it! How can I support this project?
 
 Despite how useful this software is, I don't want any compensation for it - working on it was fun enough to make it worth it!
