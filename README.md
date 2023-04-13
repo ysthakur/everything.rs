@@ -2,6 +2,8 @@
 
 ![build](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml/badge.svg)
 
+![image](https://user-images.githubusercontent.com/45539777/231678003-ae1b6183-2017-4cf6-a08b-56710710fb50.png)
+
 Do you ever feel like washing your hands after a coding session, disgusted at having to use essential
 Unix utilities with not the tiniest bit of Rust in them? If so, this project is for you! If not, this project is
 still for you, you just haven't seen the light yet. Head on over to [rust-lang.org](https://www.rust-lang.org/)
@@ -53,10 +55,10 @@ just stick an `everything` in front of it and use it the same way you would norm
 
 You better believe it.
 
-### When will it have Windows support?
+### What platforms does `everything.rs` support?
 
-It may already have it, I just haven't bothered testing it. Haven't bothered testing on MacOS either.
+Every platform that Rust supports. Any other platform is not worth supporting.
 
 ### I love it! How can I support this project?
 
-Despite how useful this software is, I don't want any compensation for it - working on it was fun enough to make it worth it!
+Despite how useful this software is, I don't want any compensation for it - working on this was fun enough!
