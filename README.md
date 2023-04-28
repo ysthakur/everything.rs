@@ -23,7 +23,7 @@ non-Rust tool! Rest assured, `everything.rs` will have the *exact* same behavior
 ## Installation
 
 Download an executable from [the latest release](https://github.com/ysthakur/everything.rs/releases/latest), or,
-if you want hemorrhaging edge releases, download the artifact from the latest green run
+if you want hemorrhaging-edge eveningly pre-pre-releases, download the artifact from the latest green run
 [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
 
 Put it in a folder that's in your `PATH` and rename it to `everything` and you're good to go!
@@ -57,7 +57,8 @@ You better believe it.
 
 ### What platforms does `everything.rs` support?
 
-Every platform that Rust supports. Any other platform is not worth supporting.
+It should work on any OS from the Unix family, including, unfortunately, MacOS. It might work on Windows too, but I haven't included a release for it to teach Windows users a lesson.
+If you're using Windows, you could always build it yourself, but I'd recommend defenestrating yourself.
 
 ### I love it! How can I support this project?
 
