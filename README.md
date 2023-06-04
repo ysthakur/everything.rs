@@ -16,9 +16,9 @@ and many of these ports require maintenance. This repository aims to fix that.
 
 Behold, a port of **everything** to Rust.
 
-Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has got you
-covered. Now you can list directories and print strings blazing fast 🚀, without the guilt of using a
-non-Rust tool! Rest assured, `everything.rs` will have the *exact* same behavior as `ls` or `echo`, but with Rust 🦀.
+Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has got you covered 💪.
+Now you can list directories, print strings, and more blazing fast 🚀, without the guilt 😬 of using a
+non-Rust 🤮 tool! Rest assured, `everything.rs` will have the *exact* same behavior as `ls` or `echo`, but with Rust 🦀.
 
 ## Installation
 
@@ -26,7 +26,10 @@ Download an executable from [the latest release](https://github.com/ysthakur/eve
 if you want hemorrhaging-edge eveningly pre-pre-releases, download the artifact from the latest green run
 [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
 
-Put it in a folder that's in your `PATH` and rename it to `everything` and you're good to go!
+Put it in a folder that's in your `PATH`, rename it to `everything`, and you're good to go!
+
+`everything.rs` proudly uses [ZeroVer](https://0ver.org/) instead of the extremely overrated SemVer.
+See the link for more information on how `everything`'s versioning works.
 
 ## Usage
 
@@ -36,7 +39,8 @@ everything ls
 everything ls -al # You can pass arguments too
 ```
 
-You can use aliases to make it more convenient (e.g. `alias ls=everything ls`).
+You can use aliases to make it more convenient. For example, `alias ls=everything ls` will let you use
+`ls -al` instead of typing out `everything ls -al`.
 
 ## FAQ
 
@@ -49,7 +53,7 @@ machine so it can better emulate it.
 ### Does it work for more than Unix tools?
 
 Of course! Want a Rust-powered replacement for that sluggish bash script you made? No problem,
-just stick an `everything` in front of it and use it the same way you would normally (`everything <script name> <args...>`).
+just stick an `everything` in front of it and use it the same way you normally would (`everything <script path> <args...>`).
 
 ### There's no way you've ported *everything*. Does it actually work?
 
@@ -58,7 +62,7 @@ You better believe it.
 ### What platforms does `everything.rs` support?
 
 It should work on any OS from the Unix family, including, unfortunately, MacOS. It might work on Windows too, but I haven't included a release for it to teach Windows users a lesson.
-If you're using Windows, you could always build it yourself, but I'd recommend defenestrating yourself.
+If you're using Windows, you could always build it yourself, but I'd recommend defenestrating yourself instead.
 
 ### I love it! How can I support this project?
 
