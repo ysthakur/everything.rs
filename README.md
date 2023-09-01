@@ -16,9 +16,9 @@ and many of these ports require maintenance. This repository aims to fix that.
 
 Behold, a port of **everything** to Rust.
 
-Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has got you covered 💪.
-Now you can list directories, print strings, and more blazing fast 🚀, without the guilt 😬 of using a
-non-Rust 🤮 tool! Rest assured, `everything.rs` will have the *exact* same behavior as `ls` or `echo`, but with Rust 🦀.
+Want a drop-in Rust-powered replacement for `ls` or `echo`? `everything.rs` has got you covered.
+Now you can list directories, print strings, and more blazing fast 🚀, without the guilt of using a
+non-Rust tool! Rest assured, `everything.rs` will have the *exact* same behavior as `ls` or `echo`, but with Rust 🦀.
 
 ## Installation
 
