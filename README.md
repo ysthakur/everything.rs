@@ -1,6 +1,8 @@
 # everything.rs
 
 ![build](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml/badge.svg)
+[![Latest version](https://img.shields.io/crates/v/everything2.svg)](https://crates.io/crates/everything2)
+[![License](https://img.shields.io/crates/l/everything2.svg)](./LICENSE.md)
 
 ![image](https://user-images.githubusercontent.com/45539777/231678003-ae1b6183-2017-4cf6-a08b-56710710fb50.png)
 
@@ -27,6 +29,8 @@ if you want hemorrhaging-edge eveningly pre-pre-releases, download the artifact 
 [here](https://github.com/ysthakur/everything.rs/actions/workflows/build.yml).
 
 Put it in a folder that's in your `PATH`, rename it to `everything`, and you're good to go!
+
+`everything` is also available on crates.io as the [`everything2`](https://crates.io/crates/everything2) crate.
 
 `everything.rs` proudly uses [ZeroVer](https://0ver.org/) instead of the extremely overrated SemVer.
 See the link for more information on how `everything`'s versioning works.
@@ -62,7 +66,7 @@ You better believe it.
 ### What platforms does `everything.rs` support?
 
 It should work on any OS from the Unix family, including, unfortunately, MacOS. It might work on Windows too, but I haven't included a release for it to teach Windows users a lesson.
-If you're using Windows, you could always build it yourself, but I'd recommend defenestrating yourself instead.
+If you're using Windows, you could always try making it work, but I'd recommend trying to defenestrate yourself instead.
 
 ### I love it! How can I support this project?
 
