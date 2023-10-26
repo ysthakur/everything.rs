@@ -65,8 +65,8 @@ You better believe it.
 
 ### What platforms does `everything.rs` support?
 
-It should work on any OS from the Unix family, including, unfortunately, MacOS. It might work on Windows too, but I haven't included a release for it to teach Windows users a lesson.
-If you're using Windows, you could always try making it work, but I'd recommend trying to defenestrate yourself instead.
+It should work on any OS from the Unix family, including, unfortunately, MacOS. If you're on Windows, I'd suggest either switching
+to Linux or defenestrating yourself.
 
 ### I love it! How can I support this project?
 
