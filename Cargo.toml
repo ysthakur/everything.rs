@@ -2,7 +2,7 @@
 name = "everything2"
 version = "0.1.0"
 edition = "2021"
-license-file = "LICENSE"
+license = "MIT"
 description = "A port of everything to Rust"
 homepage = "https://github.com/ysthakur/everything.rs"
 repository = "https://github.com/ysthakur/everything.rs"
