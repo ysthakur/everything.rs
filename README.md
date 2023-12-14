@@ -68,6 +68,3 @@ You better believe it.
 It should work on any OS from the Unix family, including, unfortunately, MacOS. If you're on Windows, I'd suggest either switching
 to Linux or defenestrating yourself.
 
-### I love it! How can I support this project?
-
-Despite how useful this software is, I don't want any compensation for it - working on this was fun enough!
